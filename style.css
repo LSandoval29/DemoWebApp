@@ -1,0 +1,79 @@
+body{
+	background-color:#cccccc;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	margin-top: 15px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.icon{
+	font-size: 20px;
+	color: white;
+	background-color:red;
+	padding:15px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+
+.contenedor{
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: white;
+	
+
+}
+
+.header{
+
+	width: 100%;
+	height: 30px;
+	float: left;
+	background-color:red;
+
+
+}
+
+.content{
+	float: left;
+	background-color: white;
+	width: 100%;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+
+
+.menu,.basura{
+
+	width: 15%;
+	float: left;
+
+}
+
+
+.user{
+	width: 70%;	
+	float: left;
+	text-align: right;
+}
+
+.menu i, .basura i,.user i{
+	margin: 0;
+	font-size: 22px;
+}
+
+.menu i,.basura i{
+	background-color: #f43f44;
+}
+
+.user i{
+	background-color: #e61c1c;
+}
